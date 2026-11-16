@@ -1,0 +1,75 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    gap: 40px;
+
+    h1 {
+        margin: 0;
+        font-size: 80px;
+        font-family: var(--styled-font);
+        flex-shrink: 0;
+         @media (max-width:768px) {
+               font-size: 40px;
+            }
+             @media (max-width:512px) {
+                font-size: 28px;
+            }
+    }
+
+    nav {
+        display: flex;
+        gap: 40px;
+        justify-content: space-between;
+        padding: 0;
+        font-size: larger;
+        font-weight: bold;
+
+        a {
+            color: var(--foreground-primary);
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        @media (max-width:1280px) {
+            display: none;
+        }
+
+    }
+
+    .buttonWrapper {
+        display: flex;
+        gap: 20px;
+
+        .cart {
+            font-size: larger;
+            background-color: var(--background-secondary);
+            padding: 5px 15px;
+            color: var(--foreground-secondary);
+            font-weight: bold;
+            border: none;
+            border-radius: 30px;
+
+            &:hover {
+                background-color: rgb(219, 193, 126);
+            }
+        }
+
+        .burgerMenu {
+            display: none;
+
+            @media (max-width:1280px) {
+                display: block;
+            }
+        }
+    }
+
+
+
+}

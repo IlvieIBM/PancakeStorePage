@@ -1,0 +1,26 @@
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--background-secondary);
+    color: var(--foreground-secondary);
+    padding: 10px 0;
+
+    .carousel-track {
+        display: flex;
+        width: max-content;
+        animation: scroll 50s linear infinite;
+
+        .card {
+            flex: 0 0 auto;
+            width: 380px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin: 0 1em;
+            font-family: var(--styled-font);
+            font-size: larger;
+            text-transform: uppercase;
+        }
+    }
+}

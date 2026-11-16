@@ -1,0 +1,12 @@
+@import url("./global/variable.css");
+@import url('./modules/carousel.css');
+@import url('./global/global.css');
+@import url('./modules/animation.css');
+@import url('./global/header.css');
+@import url('./modules/navbar.css');
+@import url('./global/footer.css');
+@import url('./global/productSlider.css');
+@import url('./global/quote.css');
+@import url('./global/steps.css');
+@import url('./global/bigAssText.css');
+@import url('./global/heroImg.css');

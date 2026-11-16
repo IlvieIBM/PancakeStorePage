@@ -1,0 +1,10 @@
+
+:root {
+    --background-primary: darkred;
+    --background-secondary: lightgoldenrodyellow;
+    --foreground-secondary: darkred;
+    --foreground-primary: lightgoldenrodyellow;
+    --styled-font: "Cherry Bomb One", sans-serif;
+    --basic-font: Arial, Helvetica, sans-serif;
+    --img-border: 5px solid var(--foreground-secondary);
+}

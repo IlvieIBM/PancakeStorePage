@@ -1,0 +1,78 @@
+.steps {
+        background-color: var(--background-secondary);
+        color: var(--foreground-secondary);
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        
+       
+
+        .imgContainer {
+            width: 100%;
+             @media(max-width: 768px){
+                    padding: 20px 0;
+                   
+                }
+
+            .stepimg {
+                width: 100%;
+                height: auto;
+                border-radius: 50px;
+                border: var(--img-border);
+                @media(max-width: 768px){
+                    height: 400px;
+                   
+                }
+            }
+        }
+
+        .headingLayout {
+
+            display: flex;
+            gap: 40px;
+            align-content: center;
+            margin-top: 20px;
+            @media (max-width: 1200px) {
+                    justify-content: center;
+                }
+            
+
+            h2 {
+                margin: 0;
+                padding: 10px 20px;
+                font-size: 30px;
+                border: 3px solid var(--foreground-secondary);
+                border-radius: 40px;
+                @media (max-width: 1200px) {
+                    font-size: 20px;
+                }
+                @media (max-width: 991px) {
+                    font-size: 30px
+                }
+                 @media (max-width: 767px) {
+                    font-size: 20px
+                }
+            }
+
+            h3 {
+                margin: 0;
+                font-size: 25px;
+                font-weight: bolder;
+                align-self: center;
+                 @media (max-width: 1200px) {
+                    font-size: 20px
+                }
+                 @media (max-width: 991px) {
+                    font-size: 25px
+                }
+                @media (max-width: 767px) {
+                    font-size: 20px
+                }
+            }
+        }
+
+        p {
+            font-size: x-large;
+           
+        }
+    }

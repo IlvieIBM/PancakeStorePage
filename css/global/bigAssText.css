@@ -1,0 +1,12 @@
+.bigAssText {
+        padding: 20px 0;
+
+        h2 {
+            margin: 0;
+            font-size: 14vw;
+            font-family: var(--styled-font);
+            text-align: center;
+            text-transform: uppercase;
+
+        }
+    }
