@@ -6,6 +6,9 @@
   @media (max-width:1500px) {
     height: 400px;
   }
+  @media (max-width:768px) {
+                  height: 450px;
+                }
   
   img {
     position: absolute;
@@ -46,6 +49,10 @@
   }
   @media (max-width:950px) {
                   left: 30%;
+                }
+                @media (max-width:768px) {
+                   left: 20%;
+                   max-width: 250px;
                 }
 
   h2 {
