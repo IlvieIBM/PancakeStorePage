@@ -181,3 +181,41 @@ a.slide_btn {
     right: 50px;
   }
 }
+
+.product-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid darkred;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 11px;
+  color: darkred;
+}
+
+.quantity button {
+  border: none;
+  background: transparent;
+  color: darkred;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* ADD TO CART */
+.cart-button {
+  background: darkred;
+  color: #fff8df;
+  border: none;
+  border-radius: 20px;
+  padding: 9px 35px;
+  font-size: 9px;
+  font-weight: bold;
+  cursor: pointer;
+}
